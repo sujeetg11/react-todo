@@ -14,7 +14,7 @@ const Todos = (props) => {
       props.todos.map((todo, index)=>{
         return( <TodoItem key={index} todo={todo} onDelete={props.onDelete}/> )
       })
-        }
+      }
       
 
     </div>
